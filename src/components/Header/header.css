@@ -1,0 +1,38 @@
+.header-dark{
+    /* position: fixed; */
+    display: flex;
+    background-color: #312f30;
+    height: 100px;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
+}
+
+.group-btn-cont{
+    width: 550px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.group-btn-cont > .disabled{
+    display: flex;
+    height: 100px;
+    width: 125px;
+    align-items: center;
+    justify-content: center;
+    background-color: #312f30;
+    font-size: 14px;
+}
+
+.group-btn-cont > div{
+    display: flex;
+    height: 100px;
+    width: 125px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff3f40;
+    font-size: 14px;
+}
