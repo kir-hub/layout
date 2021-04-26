@@ -1,0 +1,21 @@
+.footer-cont{
+    display: flex;
+    background-color: rgba(17, 17, 17, 0.884);
+    color: white;
+    justify-content: space-between;
+    padding-right: 350px;
+    margin-top: 90px;
+    height: 110px;
+}
+.footer-cont > p{
+    padding: 40px;
+    margin-left: 120px ;
+}
+.icons-cont{
+    display: flex;
+    padding: 50px;
+    padding-left: 200px;
+}
+.icons-cont > div{
+    padding-right:40px ;
+}

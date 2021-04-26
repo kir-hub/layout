@@ -1,0 +1,81 @@
+.main-cont {
+    display: flex;
+}
+    
+.video-text-cont{
+    margin-top: 89px;
+    margin-left: 162px;
+    line-height: 27px;
+}
+.p{
+    margin-top: 48px;
+    width: 500px;
+    word-wrap: break-word;
+}
+.video-text-cont > h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #312f30c5;
+    letter-spacing: 2.4px;
+
+}
+
+.learn-btn{
+    width: 227px;
+    height: 55px;
+    color: #ff3f40 ;
+    background-color:white;
+    border-radius: 5px;
+    border: 2px solid #ff3f40;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 120px;
+    margin-top: 65px;
+}
+.matrix-cont{
+    display: flex;
+    margin-left: 143px;
+    margin-top: 127px;
+    color: #312f30b9;
+   
+}
+.matrix-cont > div >div > h3{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: -1px;
+}
+
+.proposal-cont > div{
+    width: 270px;
+    height: 270px;
+    word-wrap: break-word;
+    margin-right: 52px;
+}
+.Management, .Design{
+    letter-spacing: 1px;
+}
+.Management >p, .Design > p{
+    line-height: 27px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px ;
+}
+.Branding , .Animation{
+    margin-top: -6px;
+    letter-spacing: 0.5px;
+}
+.Branding>p , .Animation>p{
+    line-height: 27px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px ;
+}
+hr{
+    margin-top: 32px;
+    width: 82%;
+    border: 1px solid #312f303a;
+    border-radius: 20px    
+}
+
+
+    

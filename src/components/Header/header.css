@@ -1,8 +1,11 @@
 .header-dark{
-    /* position: fixed; */
+    position: relative;
+    left: 8.95%;
+    top: 28px;
     display: flex;
     background-color: #312f30;
-    height: 100px;
+    height: 90px;
+    width: 68.15%;
     /* width: 100%; */
     align-items: center;
     justify-content: center;
@@ -10,17 +13,17 @@
 
 .group-btn-cont{
     width: 550px;
-    height: 100px;
+    height: 90px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .group-btn-cont > .disabled{
     display: flex;
-    height: 100px;
-    width: 125px;
+    height: 90px;
+    width: 90px;
     align-items: center;
     justify-content: center;
     background-color: #312f30;
@@ -29,10 +32,12 @@
 
 .group-btn-cont > div{
     display: flex;
-    height: 100px;
-    width: 125px;
+    height: 90px;
+    width: 90px;
     align-items: center;
     justify-content: center;
     background-color: #ff3f40;
     font-size: 14px;
+    margin-left: 8px;
+    margin-right: 28px;
 }

@@ -1,10 +1,11 @@
 import React from 'react'
+import './emailSub.css'
 
 export default function Input() {
 
     return (
-        <div>
-            <input placeholder='Email Address...'/>
+        <div className='email-sun-input'>
+            <input  placeholder='Email Address...'/>
             <button>SUBSCRIBE</button>        
         </div>
     )
