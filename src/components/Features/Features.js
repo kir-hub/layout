@@ -11,6 +11,7 @@ export default function Features(props) {
                 <p>Lorem some text Lorem some text Lorem some text 
                 Lorem some text Lorem some text Lorem some text 
                 </p> 
+                
             </div>
             
             <hr/>

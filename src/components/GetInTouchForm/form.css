@@ -1,61 +1,88 @@
 .get-in-touch-main-cont{
-    margin-left: 163px;
-    padding-top: 65px;
+    transform: translate(290px,47px);
+    width: 1540px;
     color: #312f30c5;
     display: flex;
-    font-size: 21px;
 }
+
 
 .get-in-touch-main-cont >div> hr{
     margin-left: 0px;
     border: 1px solid rgba(255, 0, 0, 0.541);
-    width: 100px;
+    width: 130px;
     
 }
 .main-form-cont{
+    transform: translate(0px,70px);
     display: flex;
     flex-direction: column;
 }
-.p{
-    width: 750px;
-    word-wrap: break-word;
-}
+
 .form-cont{
     margin-top: 28px;
+    text-align: start;
 }
 .form-cont > .p{
-    margin-top: 33px;
+    transform: translate(2px,4px);
+    width: 750px;
+    word-wrap: break-word;
     font-size: 17px;
-    line-height: 27px;
+    line-height: 28px;
     font-weight: 600;
 }
-.form-cont > hr{
-    margin-top: 80px;
+.form-cont > h1{
+    transform: translate(0px,-2px);
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
 }
-.half-inputs > input{
+
+.form-cont > hr{
+    transform: translate(0px,64px);;
+}
+.half-input{
+    font-family: 'Open Sans', sans-serif;
+
     margin-top: 63px;
-    width: 287px;
-    height: 68px;
+    width: 284px;
+    height: 66px;
     border-radius: 10px;
-    background: rgba(145, 145, 145, 0.192);
+    background: rgba(0, 0, 0, 0.068);
     border: none;
     margin-right: 55px;
-    padding-left: 50px;
-    font-size: 18px;
+    padding-left: 53px;
+    font-size: 19px;
+}
+.half-input-email{
+    font-family: 'Open Sans', sans-serif;
+
+    margin-top: 63px;
+    width: 284px;
+    height: 66px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.068);
+    border: none;
+    margin-right: 55px;
+    padding-left: 48px;
+    font-size: 16px;
 }
 .textarea-input{
-    height: 182px;
-    width: 645px;
+    font-family: 'Open Sans', sans-serif;
+
+    height: 188px;
+    width: 649px;
     border-radius:10px;
     background: rgba(158, 158, 158, 0.205);
     border: none;
     margin-top: 45px;
     margin-bottom: 30px;
-    padding: 34px;
-    padding-left: 52px;
+    padding: 30px;
+    padding-left: 53px;
     font-size: 16px;
 }
 button{
+    font-family: 'Open Sans', sans-serif;
+
     margin-left: 2px;
     margin-top: 15px;
     background-color: #ff3f40 ;
@@ -65,30 +92,43 @@ button{
     color: white;
     border: 1px solid rgba(255, 0, 0, 0.541);
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 700;
     letter-spacing: 1px;
+    padding-right: 2px;
 }
 
 .contact-info-cont{
-    margin-top: 357px;
+    transform: translate(57px,345px);
     display: flex;
     
 
 }
 .info{
-    margin-left: 51px;
-    padding-top: 127px;
-    padding-left: 80px;
     color: white;
     background-color: #312f30;
-    width: 495px;
-    height: 354px;
+    width: 575px;
+    height: 481px;
 }
 .info > h1{
+    transform: translate(-140px,122px);
     font-size: 18px;
+    letter-spacing: 0.6px;
+    margin-bottom: -4px;
 }
 
-.info > p{
-    margin-top: 30px;
+.info > .p{
+    font-family: 'Open Sans', sans-serif;
+    
+    transform: translate(-150px,140px);
+    line-height: 29px;
+}
+.mail{
+    font-family: 'Open Sans', sans-serif;
+    transform: translate(-170px,141px);
+}
+.phone{
+    font-family: 'Open Sans', sans-serif;
+    transform: translate(-131px,151px);
+
 }

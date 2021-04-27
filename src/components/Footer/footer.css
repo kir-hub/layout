@@ -1,21 +1,21 @@
 .footer-cont{
+    transform: translate(128px,207px);
     display: flex;
     background-color: rgba(17, 17, 17, 0.884);
     color: white;
     justify-content: space-between;
-    padding-right: 350px;
-    margin-top: 90px;
-    height: 110px;
+    height: 111px;
+    width: 86%;
 }
-.footer-cont > p{
-    padding: 40px;
-    margin-left: 120px ;
+.footer-cont > .p{
+    transform: translate(182px,37px);
+    font-size: 16px;
+    letter-spacing: 0.03px;
 }
 .icons-cont{
     display: flex;
-    padding: 50px;
-    padding-left: 200px;
+    transform: translate(-132px,50px);
 }
 .icons-cont > div{
-    padding-right:40px ;
+    padding-right:45px ;
 }

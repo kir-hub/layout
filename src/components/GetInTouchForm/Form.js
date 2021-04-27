@@ -7,11 +7,11 @@ export default function Form(props) {
         <div className='main-form-cont'>
             <div className='half-inputs'>
                 <input className='half-input' placeholder='Name'/>        
-                <input className='half-input' placeholder='Your mail'/>
+                <input className='half-input-email' placeholder='Your mail'/>
             </div>
                     
  
-            <textarea className='textarea-input' placeholder='type your message'/>
+            <textarea className='textarea-input' placeholder='Type your message'/>
             <button className='send-msg-btn'>SEND MESSAGE</button>
         </div>
     )

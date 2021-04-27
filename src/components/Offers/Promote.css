@@ -3,24 +3,26 @@
 }
     
 .video-text-cont{
-    margin-top: 89px;
-    margin-left: 162px;
+    transform: translate(289px,101px);
     line-height: 27px;
+    text-align: start;
 }
 .p{
-    margin-top: 48px;
-    width: 500px;
+    transform: translate(1px,20px);
+    width: 550px;
     word-wrap: break-word;
+    font-family: 'Open Sans', sans-serif;
 }
 .video-text-cont > h1{
-    font-size: 40px;
-    font-weight: 600;
-    color: #312f30c5;
-    letter-spacing: 2.4px;
+    font-size: 41px;
+    font-weight: 700;
+    color: #312f30e8;
+    letter-spacing: 1.2px;
 
 }
 
 .learn-btn{
+    transform: translate(0px,70px);
     width: 227px;
     height: 55px;
     color: #ff3f40 ;
@@ -28,21 +30,24 @@
     border-radius: 5px;
     border: 2px solid #ff3f40;
     font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 120px;
-    margin-top: 65px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+
 }
 .matrix-cont{
+    transform: translate(383px,128px);
     display: flex;
-    margin-left: 143px;
-    margin-top: 127px;
     color: #312f30b9;
+    font-family: 'Open Sans', sans-serif;
+    text-align: start;
    
 }
 .matrix-cont > div >div > h3{
     font-size: 23px;
     font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: -1px;
+    letter-spacing: 0.8px;
 }
 
 .proposal-cont > div{
@@ -51,28 +56,31 @@
     word-wrap: break-word;
     margin-right: 52px;
 }
-.Management, .Design{
-    letter-spacing: 1px;
-}
+
 .Management >p, .Design > p{
-    line-height: 27px;
+    line-height: 28px;
     font-size: 16px;
     font-weight: 500;
     margin-top: 12px ;
+}
+.Animation{
+    transform: translate(-2px,0px);
+
 }
 .Branding , .Animation{
     margin-top: -6px;
     letter-spacing: 0.5px;
 }
 .Branding>p , .Animation>p{
-    line-height: 27px;
+
+    line-height: 28px;
     font-size: 16px;
     font-weight: 500;
     margin-top: 12px ;
 }
 hr{
-    margin-top: 32px;
-    width: 82%;
+    transform: translate(0,152px);
+    width: 68%;
     border: 1px solid #312f303a;
     border-radius: 20px    
 }

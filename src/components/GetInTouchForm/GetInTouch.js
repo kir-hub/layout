@@ -23,12 +23,19 @@ export default function GetInTouch() {
             <div className='contact-info-cont'>
                 <div className='info'>
                     <h1>CONTACT INFO</h1>
-                    <p>some text</p>
-                    <p>some text</p>
-                    <p>some text</p>
-                </div>
-                
+                    <div className='p'>
+                        <p>Jalalabad 24<br/>
+                        Bangladesh</p>
+                    </div>  
+                    <div className='mail'>
+                        <p>some text</p>
+                    </div>  
+                        <div className='phone'>
+                    <p>(+88) 017 617 46373</p>
+                        </div>
             </div>
+        </div>
+        
         </div>
     )
 }

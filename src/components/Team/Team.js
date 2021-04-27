@@ -6,7 +6,8 @@ export default function Team() {
 
     return (
         <>
-        <div className='team-text-cont'>
+        <div className='main-team-cont'>
+            <div className='team-text-cont'>
             <h1>MEET OUR TEAM</h1>        
             <div className='p'>
                 <p>Lorem  some text some text some text
@@ -18,6 +19,8 @@ export default function Team() {
             <hr/>
         </div>    
             <TeamMembers/>
+        </div>
+        
         </>
     )
 }

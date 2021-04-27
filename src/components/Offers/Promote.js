@@ -41,7 +41,7 @@ export default function Promote(props) {
                         some textsome textsome text
                         some textsome textsome text</p>
                     </div>
-                </div>
+                </div> 
                 <div className='proposal-cont'>
                     <div className='Design'>
                         <img src='' alt='pencil'/>

@@ -7,10 +7,11 @@ import Team from './components/Team/Team'
 import EmailSub from './components/EmailSub/EmailSub';
 import GetInTouch from './components/GetInTouchForm/GetInTouch';
 import Footer from './components/Footer/Footer'
+import "./App.css"
 
 function App() {
   return (
-    <div className="App">
+      <div className="App">
       <Header/>
       <VideoComponent/>
       <Promote/>
@@ -20,6 +21,7 @@ function App() {
       <GetInTouch/>
       <Footer/>
     </div>
+    
   );
 }
 
