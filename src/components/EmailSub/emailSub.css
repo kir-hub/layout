@@ -1,12 +1,12 @@
 .background-img-cont{
-    margin-top: 580px;
+    margin-top: 3.7%;
     background: 50%  no-repeat url(https://www.fotospeed.com/media/cms/Blog%20images/Black%20and%20White/Black%20and%20white.jpg);
     background-size: cover ;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
-    height: 513px;
+    padding-bottom: 50px;
 }
 
 .background-img-cont > h1{
@@ -28,12 +28,11 @@
     height: 75px;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.26);
-    padding-left: 32px ;
-    margin-left: -110px;
+    padding-left: 4% ;
+    margin-left: -9.5%;
     font-size: 16px;
     letter-spacing: 0.5px;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 .email-sun-input > button{
@@ -51,3 +50,16 @@
     font-family: 'Open Sans', sans-serif;
     margin-left: 29px ;
 }
+
+@media screen and (max-width: 720px) {
+    .background-img-cont{
+        text-align: center;
+    }
+    .email-sun-input > input{
+        width: 300px;
+    }
+    .email-sun-input{
+        margin-left: -50px;
+    }
+}
+

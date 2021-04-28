@@ -3,22 +3,24 @@ body{
 }
 .header-dark{
     position: relative;
-    transform: translate(292px, 33px);
+    /* transform: translate(292px, 33px); */
     display: flex;
     background-color: #312f30;
     height: 89px;
-    width:1249px;
+    width:68.12%;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    margin-top: 1.78%;
 }
 
+
 .group-btn-cont{
-    width: 550px;
-    height: 89px;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     align-items: center;
     color: rgb(255, 255, 255);
+    margin-right: 3.55%;
 }
 
 .group-btn-cont > .disabled{
@@ -65,3 +67,14 @@ h1{
     margin-top: 17px;
     letter-spacing: 0.7px;
 }
+
+
+@media screen and (max-width: 1440px){
+    .header-dark{
+        width: 100%;
+        transform: translate(0px, 0px);
+
+    }
+}
+
+

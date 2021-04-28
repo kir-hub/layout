@@ -7,8 +7,11 @@ export default function Promote(props) {
         <>
         <div className='main-cont'>
             <div className='video-text-cont'>
-                <h1>DO YOU KNOW WE CAN</h1>
-                <h1>PROVIDE FOR YOU ?</h1>
+                <div className='title-cont'>
+                    <h1>DO YOU KNOW WE CAN</h1>
+                    <h1>PROVIDE FOR YOU ?</h1>
+                </div>
+                
                 <div className='p'>
                     <p>Lorem some text Lorem some text 
                     Lorem some textLorem some text 

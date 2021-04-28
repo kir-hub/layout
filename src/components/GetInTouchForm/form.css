@@ -1,30 +1,34 @@
 .get-in-touch-main-cont{
-    transform: translate(290px,47px);
-    width: 1540px;
+    /* margin-top: 48px; */
+    /* margin-left: 290px; */
     color: #312f30c5;
     display: flex;
 }
 
 
 .get-in-touch-main-cont >div> hr{
-    margin-left: 0px;
+    margin-top: 50px;
+    margin-left: 1px;
     border: 1px solid rgba(255, 0, 0, 0.541);
     width: 130px;
     
 }
 .main-form-cont{
-    transform: translate(0px,70px);
+    /* transform: translate(0px,70px); */
     display: flex;
     flex-direction: column;
 }
 
 .form-cont{
-    margin-top: 28px;
+    margin-top: 77px;
+    margin-left: 290px;
     text-align: start;
+    width: 46%;
 }
 .form-cont > .p{
-    transform: translate(2px,4px);
-    width: 750px;
+    /* width: 750px; */
+    margin-left: 2px;
+    margin-top: 32px;
     word-wrap: break-word;
     font-size: 17px;
     line-height: 28px;
@@ -37,57 +41,61 @@
     letter-spacing: 0.5px;
 }
 
-.form-cont > hr{
-    transform: translate(0px,64px);;
-}
-.half-input{
-    font-family: 'Open Sans', sans-serif;
 
-    margin-top: 63px;
-    width: 284px;
-    height: 66px;
+.half-input-login{
+    font-family: 'Open Sans', sans-serif;
+    padding: 22px 52px;
+    margin-top: 67px;
+    width: 28%;
+    /* height: 66px; */
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.068);
     border: none;
     margin-right: 55px;
-    padding-left: 53px;
+    /* padding-left: 53px; */
     font-size: 19px;
 }
+@media screen and (max-width: 1280px) {
+    .half-input-login{
+        width: 43.5%;
+    }
+}
+
+
 .half-input-email{
+    padding: 23px 47px;
+    padding-right: 92px;
     font-family: 'Open Sans', sans-serif;
 
     margin-top: 63px;
-    width: 284px;
-    height: 66px;
+    /* width: 284px; */
+    /* height: 66px; */
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.068);
     border: none;
     margin-right: 55px;
-    padding-left: 48px;
+    /* padding-left: 48px; */
     font-size: 16px;
 }
 .textarea-input{
     font-family: 'Open Sans', sans-serif;
-
-    height: 188px;
-    width: 649px;
+    width: 74%;
     border-radius:10px;
     background: rgba(158, 158, 158, 0.205);
     border: none;
     margin-top: 45px;
     margin-bottom: 30px;
-    padding: 30px;
-    padding-left: 53px;
+    padding: 31px 54px; 
+    padding-bottom: 198px;
     font-size: 16px;
 }
 button{
     font-family: 'Open Sans', sans-serif;
 
-    margin-left: 2px;
-    margin-top: 15px;
+    margin-left: 4px;
+    margin-top: 14.5px;
     background-color: #ff3f40 ;
-    width: 728px;
-    height: 72px;
+    width: 86.4%;
     margin-bottom: 20px;
     color: white;
     border: 1px solid rgba(255, 0, 0, 0.541);
@@ -95,40 +103,68 @@ button{
     font-size: 17px;
     font-weight: 700;
     letter-spacing: 1px;
-    padding-right: 2px;
+    padding-right: 1px;
+    padding: 22.7px;
 }
 
 .contact-info-cont{
-    transform: translate(57px,345px);
+    /* transform: translate(57px,345px); */
     display: flex;
-    
+    width: 38%;
 
 }
 .info{
+    margin-top: 394px;
+    margin-left: -3px;
+    width: 82.5%;
+    height: 53.8%;
     color: white;
     background-color: #312f30;
-    width: 575px;
-    height: 481px;
+    /* width: 575px; */
+    /* height: 481px; */
 }
 .info > h1{
-    transform: translate(-140px,122px);
+    /* transform: translate(-140px,122px); */
+    margin-top: 139px;
+    margin-left: 78px;
     font-size: 18px;
     letter-spacing: 0.6px;
     margin-bottom: -4px;
 }
 
-.info > .p{
+.info > .info-p{
     font-family: 'Open Sans', sans-serif;
-    
-    transform: translate(-150px,140px);
+    margin-left: 80px;
+    /* transform: translate(-150px,140px); */
     line-height: 29px;
 }
 .mail{
     font-family: 'Open Sans', sans-serif;
-    transform: translate(-170px,141px);
+    margin-left: 80px;
+    /* transform: translate(-170px,141px); */
 }
 .phone{
     font-family: 'Open Sans', sans-serif;
-    transform: translate(-131px,151px);
+    margin-left: 80px;
+    margin-top: 26px;
+    /* transform: translate(-131px,151px); */
 
+}
+
+@media screen and (max-width: 720px) {
+    .form-cont{
+        margin-left: 100px;
+
+    }
+    .half-input-email{
+        width: 33%;        
+    }
+    .textarea-input{
+        width: 43%;
+    }
+    .info{
+        height: 35%;
+        margin-top: 288%;
+        width: 100%;
+    }
 }

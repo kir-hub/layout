@@ -3,17 +3,25 @@
 }
     
 .video-text-cont{
-    transform: translate(289px,101px);
+    /* margin-top: 5.8%; */
+    /* margin-left: 9.3%; */
+    /* transform: translate(289px,101px); */
     line-height: 27px;
     text-align: start;
+    width: 47%;
 }
 .p{
-    transform: translate(1px,20px);
-    width: 550px;
+    width: 60%;
+    margin-top: 5.9%;
+    margin-left: 20%;
     word-wrap: break-word;
     font-family: 'Open Sans', sans-serif;
 }
-.video-text-cont > h1{
+.title-cont{
+    margin-top: 14.45%;
+    margin-left: 19.94%;
+}
+.title-cont > h1{
     font-size: 41px;
     font-weight: 700;
     color: #312f30e8;
@@ -22,7 +30,8 @@
 }
 
 .learn-btn{
-    transform: translate(0px,70px);
+    margin-left: 20%;
+    margin-top: 55px;
     width: 227px;
     height: 55px;
     color: #ff3f40 ;
@@ -32,11 +41,17 @@
     font-weight: bold;
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .matrix-cont{
-    transform: translate(383px,128px);
+    margin-top: 7.3%;
+    margin-left: .15%;
+    width: 38%;
     display: flex;
+    
     color: #312f30b9;
     font-family: 'Open Sans', sans-serif;
     text-align: start;
@@ -49,12 +64,15 @@
     margin-bottom: -1px;
     letter-spacing: 0.8px;
 }
-
+.proposal-cont{
+    margin-right: 5%;
+    width: 100%;
+}
 .proposal-cont > div{
-    width: 270px;
-    height: 270px;
+    /* width: 100%; */
+    /* height: 270px; */
     word-wrap: break-word;
-    margin-right: 52px;
+    /* margin-right: 52px; */
 }
 
 .Management >p, .Design > p{
@@ -64,8 +82,10 @@
     margin-top: 12px ;
 }
 .Animation{
-    transform: translate(-2px,0px);
-
+    transform: translate(-3px,28px);
+}
+.Design{
+    transform: translate(-2px,1px);
 }
 .Branding , .Animation{
     margin-top: -6px;
@@ -79,11 +99,52 @@
     margin-top: 12px ;
 }
 hr{
-    transform: translate(0,152px);
+    /* transform: translate(0,152px); */
     width: 68%;
     border: 1px solid #312f303a;
     border-radius: 20px    
 }
+@media screen and (max-width: 720px) {
+    .main-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .video-text-cont{
+        width: 100%;
+    }
+    .title-cont > h1{
+        width: 110%;
+        margin-left: -50px;
+    }
+    .learn-btn{
+        margin-left: 170px;
+    }
+    .matrix-cont{
+        width: 100%;
+    }
+    .Branding{
+        margin-top: 22px;
+    }
+}
 
-
-    
+@media screen and (max-width: 480px) {
+    .title-cont>h1{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .learn-btn{
+        margin-left: 60px;
+    }
+    .Branding{
+        margin-top: 77px;
+    }
+    .Animation > p{
+        margin-top: 45px;
+    }
+    .Management>p{
+        margin-top: 45px;
+    }
+    .matrix-cont{
+        width: 100%;
+    }
+}

@@ -9,7 +9,7 @@ export default function Features(props) {
             <h1>FEATURE PRODUCTS</h1>
             <div className='p'>
                 <p>Lorem some text Lorem some text Lorem some text 
-                Lorem some text Lorem some text Lorem some text 
+                Lorem some text <br/>Lorem some text Lorem some text 
                 </p> 
                 
             </div>

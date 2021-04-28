@@ -4,41 +4,39 @@ body{
 .video-main-cont{
     display: flex;
     background-color: #f6f2f1;
-    height: 601px;
-    max-width: 1705px;
+    margin-top: 4.2%;
+    /* height: 601px; */
+    /* max-width: 100%; */
 }
-/* @media screen and (max-width: 1024px) {
-    .video-main-cont{
-        flex-direction: column;
-    }
-} */
+
 .s-string > h1{
-    transform: translate(148px,54px);
+    margin-top: -7.4%;
     font-size: 60px;
     font-weight: 800 ;
     letter-spacing: 5.9px;
 }
 .f-string > h1{
-    transform: translate(55px,104px);
     font-size: 60px;
     font-weight: 800 ;
     letter-spacing: 1.4px;
 }
 
 .text-cont{
-    transform: translate(142px,0px);
+    width: 40%;
+    margin-left: 9.3%;
 }
 .text-cont > .p{
-    transform: translate(150px,26px);
-    width: 540px;
-    height: 200px;
+    margin-top: -28px;
+    margin-left: 0.3%;
+    width: 60%;
     word-wrap: break-word;
     line-height: 29px;
     text-align: start;
 }
 
 .contact-btn{
-    transform: translate(-38px,-51px);
+    margin-top: 22px;
+    margin-bottom: 18%;
     width: 227px;
     height: 55px;
     color: white;
@@ -49,16 +47,44 @@ body{
     font-size: 17px;
     letter-spacing: 1px;
     font-family: 'Open Sans', sans-serif;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .video-cont{
-    transform: translate(220px,10px);
-    width: 550px;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
 }
 .video-cont > iframe{
-    transform: translate(160px,119px);
-    width: 550px;
-    height: 350px;
-    border: 10px solid rgb(250, 240, 214);
+    margin-left: -13%;
+    margin-top: -12%;
+    padding: 15% 18%;
+    border: 10px solid rgb(168, 158, 126);
+}
+
+
+@media  screen and (max-width: 1440px) {
+    .video-main-cont{
+        flex-direction: column;        
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media  screen and (max-width: 720px) {
+    .text-cont{
+        margin-left: -100px;
+        width: 80%;
+    }
+    .text-cont > span>h1{
+        font-size: 50px;
+    }
+}
+@media  screen and (max-width: 720px) {
+    .text-cont > span>h1{
+        font-size: 30px;
+    }
 }

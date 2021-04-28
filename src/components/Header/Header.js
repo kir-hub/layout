@@ -8,7 +8,6 @@ export default function Header(props) {
                 <div className='disabled'><h1>PORTFOLIO</h1></div>
                 <div className='disabled'><h1>ABOUT US</h1></div>
                 <div className='disabled'><h1>CONTACT</h1></div>
-                
             </div>
         </div> 
     )

@@ -23,7 +23,7 @@ export default function GetInTouch() {
             <div className='contact-info-cont'>
                 <div className='info'>
                     <h1>CONTACT INFO</h1>
-                    <div className='p'>
+                    <div className='info-p'>
                         <p>Jalalabad 24<br/>
                         Bangladesh</p>
                     </div>  

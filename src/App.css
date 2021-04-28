@@ -1,11 +1,14 @@
 .App {
-  text-align: center;
-
+  box-sizing: border-box;
+  /* text-align: center; */
   
+}
+.middle-cont{
+  margin-left: 130px;
 }
 body{
   font-family: 'Open Sans', sans-serif;
 }
-/* .App  * {
+.App  * {
 border: solid black 1px;
-}  */
+} 

@@ -11,7 +11,7 @@ export default function TeamMembers(props) {
             <div className='description'>
                 <div className='description-text'>
                     <h2>MARK WAUGH</h2>
-                    <p>Lorem  textSome textSome textSome textSome textSome textSome textSome textSome textSome textSome textSome textSome textSome text</p>
+                    <p>Lorem  textSome textSome textSome textSome <br/>textSome textSome textSome textSome textSome textSome textSome textSome textSome text</p>
                 </div>
                 
                 <div className='socials'>

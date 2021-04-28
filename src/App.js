@@ -13,10 +13,13 @@ function App() {
   return (
       <div className="App">
       <Header/>
-      <VideoComponent/>
-      <Promote/>
-      <Features/>
-      <Team/>
+      <div className='middle-cont'>
+        <VideoComponent/>
+        <Promote/>
+        <Features/>
+        <Team/>
+      </div>
+      
       <EmailSub/>
       <GetInTouch/>
       <Footer/>
