@@ -38,3 +38,33 @@
 
     /* padding-right:45px ; */
 }
+@media screen and (max-width: 720px) {
+    .footer-cont > .p{
+        margin: 0;
+    }
+    .icons-cont{
+        margin-right: 40px;
+    }
+    .icons-cont>div{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-cont{
+        width: 80%;
+    }
+    .footer-cont > .p{
+        margin-left: 0px;
+    }
+    .icons-cont{
+        display: flex;
+        width: 20%;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .icons-cont>div{
+        margin: 0;
+    }
+    
+}

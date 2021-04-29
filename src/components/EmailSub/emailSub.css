@@ -50,6 +50,21 @@
     font-family: 'Open Sans', sans-serif;
     margin-left: 29px ;
 }
+@media screen and (max-width: 1440px) {
+    .background-img-cont > p{
+        width: 50%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .email-sun-input{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 @media screen and (max-width: 720px) {
     .background-img-cont{
@@ -63,3 +78,12 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+    
+    .email-sun-input{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -80px;
+    }
+}

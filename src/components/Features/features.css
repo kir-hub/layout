@@ -64,12 +64,88 @@
      margin: 1%;
 }
 
-@media screen and (max-width: 720px) {
-    .selectors > span{
-        margin-left: 30px;
+@media screen and (max-width: 1440px) {
+    .row-img-cont{
+        display: flex;
+        flex-wrap: wrap;
     }
+}
+
+@media screen and (max-width: 1080px) {
+    .photo-main-cont >div>img{
+        height: 200px;
+        width: 200px;
+   }
+   .row-img-cont{
+       margin-left: -90px;
+       flex-wrap: wrap;
+   }
+   .feature-main-cont>hr{
+       margin-left: 350px;
+   }
+   .feature-main-cont > .p{
+       margin-left: -40px;
+   }
+   .selectors{
+       margin-left: -130px;
+   }
+
+}
+
+@media screen and (max-width: 720px) {
+    
     .photo-main-cont > div> img{
         height: 120px;
         width: 120px;
+    }
+   
+    .feature-main-cont>hr{
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .selectors{
+        margin-right:0px ;
+    }
+    .selectors > span{
+        margin-left: 10px;
+    }
+    .selectors > span > h2{
+        font-size: 14px;
+    }
+    .photo-main-cont > div> img{
+        height: 100px;
+        width: 100px;
+    }
+    .row-img-cont{
+        margin-right: 20px;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .photo-main-cont{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .photo-main-cont > div > img{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .row-img-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo-main-cont{
+        margin-left: -100px;
+    }
+    .selectors>span>h2{
+        font-size: 12px;
+    }
+    .feature-main-cont > hr{
+        margin-left: 50px;
+    }
+    .feature-main-cont>.p{
+        margin-left: -110px;
     }
 }

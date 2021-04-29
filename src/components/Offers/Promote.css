@@ -104,6 +104,18 @@ hr{
     border: 1px solid #312f303a;
     border-radius: 20px    
 }
+@media screen and (max-width: 1440px) {
+    .title-cont{
+        line-height: 40px;
+    }
+    .Branding{
+        margin-top: 38px
+    }
+    hr{
+        margin-left: 120px;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .main-cont{
         display: flex;
@@ -111,6 +123,7 @@ hr{
     }
     .video-text-cont{
         width: 100%;
+        margin-left: -80px;
     }
     .title-cont > h1{
         width: 110%;
@@ -123,28 +136,43 @@ hr{
         width: 100%;
     }
     .Branding{
-        margin-top: 22px;
+        margin-top: 40px;
+    }
+    hr{
+        margin-left: 50px;
     }
 }
 
 @media screen and (max-width: 480px) {
+    .main-cont{
+        margin-left: -110px;
+    }
+    .video-text-cont{
+        margin-left: -10px;
+    }
     .title-cont>h1{
         font-size: 32px;
         line-height: 35px;
     }
     .learn-btn{
-        margin-left: 60px;
+        margin-left: 120px;
     }
     .Branding{
-        margin-top: 77px;
+        margin-top: 7px;
+    }
+    .Animation{
+        margin-top: 50px;
     }
     .Animation > p{
-        margin-top: 45px;
+        margin-top: 13px;
     }
     .Management>p{
         margin-top: 45px;
     }
     .matrix-cont{
         width: 100%;
+    }
+    hr{
+        margin-left: -15px;
     }
 }

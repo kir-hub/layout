@@ -71,6 +71,25 @@ body{
         flex-direction: column;        
         justify-content: center;
         align-items: center;
+        margin-left: -130px;
+    }
+    .text-cont{
+        margin-left: 0px;
+    }
+    .video-cont{
+        margin-left: 100px;
+    }
+}
+@media  screen and (max-width: 1080px) {
+    .text-cont {
+        margin-left:-200px ;
+    }
+    .text-cont > .p{
+        width: 100%;
+    }
+    .text-cont > span > h1{
+        font-size: 40px;
+        font-weight: 700;
     }
 }
 
@@ -80,11 +99,30 @@ body{
         width: 80%;
     }
     .text-cont > span>h1{
-        font-size: 50px;
+        font-size: 40px;
+    }
+}
+@media  screen and (max-width: 480px) {
+    .text-cont > span>h1{
+        font-size: 30px;
     }
 }
 @media  screen and (max-width: 720px) {
-    .text-cont > span>h1{
-        font-size: 30px;
+    .video-main-cont{
+        margin-left: -120px;
+    }
+    .text-cont{
+        margin-left: 10px;
+        text-align: center;
+        
+    }
+    .text-cont > .p{
+        width: 100%;
+    }
+    .contact-btn{
+        margin-left: 80px;
+    }
+    .video-cont{
+        margin-left: 35px;
     }
 }

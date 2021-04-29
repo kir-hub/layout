@@ -130,30 +130,72 @@ margin-right: 28px;
     width: 179px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1440px) {
     .img-cont > img{
         width: 100%;
         margin-left: -12%;
-        margin-top: 19%;
+        margin-top: 13%;
+    }
+    .team-members-main-cont{
+        flex-wrap:wrap ;
     }
 }
 
+@media screen and (max-width: 1080px) {
+    .team-members-main-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .description{
+        margin-top: -300px;
+        margin-left: 40%;
+
+    }
+    .description-text{
+        width: 80%;
+    }
+    .teamates{
+        margin-top: 100px;
+        margin-left:-350px ;
+        flex-wrap: wrap;
+    }
+    .socials> span{
+        font-size: 14px;
+    }
+}
 @media screen and (max-width: 720px) {
     .team-members-main-cont{
         flex-direction: column;
     }
-    .description-text > p{
-        margin-right: 50px;
+    .description{
+        margin: 0;
     }
     .description-text{
-        margin-top: -250px;
+        width: 55%;
+    }
+    .description-text > h2{
+        font-size: 25px;
+    }
+    .teamates{
+        margin-top: 0px;
+    }
+    .description-text > p{
+        margin-right: 40px;
+    }
+    .description-text{
+        margin-top: -220px;
         margin-left:220px ;
     }
     .img-cont{
         margin-left: 10px;
     }
+    .img-cont>img{
+        width: 206px;
+        height: 204px;
+    }
     .teamates{
         margin-left: -80px;
+        flex-wrap: wrap;
     }
     .teamates> div> img{
         width: 140px;
@@ -162,5 +204,62 @@ margin-right: 28px;
     .teamate-img{
         margin-right: -29px;
     }
+    .team-text-cont > hr{
+        display: none;
+    }
+
 }
 
+@media screen and (max-width: 480px) {
+    .team-text-cont>h1{
+        width: 100%;
+        margin-left: -40px;
+        font-size: 30px;
+    }
+    .team-text-cont>.p{
+        width: 90%;
+        margin-left: -60px;
+    }
+    .team-members-main-cont{
+        margin-left: -50px;
+    }
+    .img-cont{
+        width: 70%;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .description-text> h2{
+        width: 220%;
+        margin-top: -70px;
+        margin-left: -160px;
+    }
+    .description-text>p{
+        margin-top: 280px;
+        margin-left: -195px;
+    }
+    .description-text{
+        width: 30%;
+    }
+    .socials > span{
+        margin-right: 10px;
+    }
+    .teamates{
+        margin-left: -10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .teamates > div > img{
+        height: 120px;
+        width: 120px;
+    }
+    .teamates > div{
+        width: 35% ;
+        margin-left: 20px;
+        /* margin: 10px; */
+        /* margin-top: -10px; */
+        
+    }
+    .teamate-img{
+        margin-right: 3px ;
+    }
+}
